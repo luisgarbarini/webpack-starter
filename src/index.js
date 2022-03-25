@@ -1,5 +1,5 @@
 
-import { saludar } from "./js/componentes.js"
+import "./js/componentes.js";
 
-const nombre = 'Luis Garbarini';
-saludar( nombre );
+// const nombre = '- Webpack Config -';
+// saludar( nombre );

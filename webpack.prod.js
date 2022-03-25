@@ -1,5 +1,4 @@
-// const FileLoader = require('file-loader');
-// const { LibManifestPlugin } = require('webpack');
+const FileLoader = require('file-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
@@ -42,7 +41,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif)$/,
-                use: 'file-loader',
+                loader: 'file-loader',
 
             },
             {
